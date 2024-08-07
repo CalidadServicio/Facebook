@@ -2,4 +2,5 @@ pandas
 streamlit
 folium
 plotly
+st-aggrid
 
