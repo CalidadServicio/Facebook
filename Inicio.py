@@ -18,7 +18,7 @@ st.set_page_config(page_title='Throughput Claro',
                    initial_sidebar_state="expanded",
                    menu_items=None)
 
-folder_path = './assets/Dataset'
+folder_path = './assets/Dataset.zip'
 dataset_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
 periodos_options = [f[1:7] for f in dataset_files]
 periodos_dict = {f[1:7]: f for f in dataset_files}
